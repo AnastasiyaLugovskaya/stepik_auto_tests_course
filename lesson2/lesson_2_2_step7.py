@@ -3,7 +3,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-# Тут путь к конкретному исполняемому файлу (lesson 2.2 step7.py)
+# Тут путь к конкретному исполняемому файлу (lesson_2_2_step7.py)
 #print(os.path.abspath(__file__))
 # А это путь к папке где он лежит (lesson2)
 #print(os.path.abspath(os.path.dirname(__file__)))
