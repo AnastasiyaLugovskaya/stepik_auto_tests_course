@@ -2,6 +2,7 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
+import pytest
 
 
 class TestUniqueSelectors(unittest.TestCase):
@@ -46,4 +47,4 @@ class TestUniqueSelectors(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main()
+    pytest.main()
