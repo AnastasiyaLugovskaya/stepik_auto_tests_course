@@ -27,3 +27,4 @@ def test_authorize_on_stepik_account(browser):
     submit_button.click()
 
     assert WebDriverWait(browser, 10).until(EC.invisibility_of_element_located(auth_form))
+    
